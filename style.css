@@ -137,7 +137,6 @@ header nav i {
   margin-right: 20px;
 }
 
-
 .btn {
   height: 24px;
   width: 100px;
@@ -219,6 +218,7 @@ header nav i {
   align-items: flex-start;
   padding: 0 24px;
   width: 375px;
+
   /* height: 568px; */
   flex: none;
   order: 0;
@@ -233,7 +233,7 @@ header nav i {
   order: 0;
   flex-grow: 0;
   margin-bottom: 24px;
-  margin-top:80px;
+  margin-top: 80px;
 }
 
 .work-section .featured-img .right-block {
@@ -366,7 +366,7 @@ header nav i {
   order: 3;
   flex-grow: 0;
   border: none;
-  color:#ffffff;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -377,7 +377,7 @@ header nav i {
 .madbtn:hover {
   color: #f55800;
   background: #fff5e1;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
 
 .second-frame {
@@ -604,6 +604,3 @@ header nav i {
   background: #fff5e1;
   color: #f55800;
 }
-
-
-
