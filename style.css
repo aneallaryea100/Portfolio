@@ -608,4 +608,76 @@ header nav i {
   width: 375px;
   height: 844px;
   background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.hold-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.context{
+  width: 327px;
+  height: 216px;
+  margin-bottom: 73px;
+}
+
+.fotext{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #172B4D;
+}
+
+.fmlist{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+input{
+  width: 327px;
+}
+
+textarea{
+  height: 114px;
+  width: 327px;
+  background: #FBF8F7;
+  padding: 10px;
+}
+
+.fbutton{
+  display: flex;
+  justify-content: center;
+}
+
+.fbtnn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.fbtnn:hover{
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
