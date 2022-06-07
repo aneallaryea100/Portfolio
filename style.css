@@ -678,3 +678,12 @@ textarea {
   background: #fff5e1;
   border: 1px solid #f55800;
 }
+input {
+
+outline:none;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid gray;
+
+}
