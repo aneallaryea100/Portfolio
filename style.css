@@ -603,3 +603,9 @@ header nav i {
   background: #fff5e1;
   color: #f55800;
 }
+
+.sec-form{
+  width: 375px;
+  height: 844px;
+  background: #fff;
+}
