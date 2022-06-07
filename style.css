@@ -604,7 +604,7 @@ header nav i {
   color: #f55800;
 }
 
-.sec-form{
+.sec-form {
   width: 375px;
   height: 844px;
   background: #fff;
@@ -613,51 +613,51 @@ header nav i {
   align-items: center;
 }
 
-.hold-form{
+.hold-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.context{
+.context {
   width: 327px;
   height: 216px;
   margin-bottom: 73px;
 }
 
-.fotext{
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #172B4D;
+.fotext {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
 }
 
-.fmlist{
+.fmlist {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-input{
+input {
   width: 327px;
 }
 
-textarea{
+textarea {
   height: 114px;
   width: 327px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   padding: 10px;
 }
 
-.fbutton{
+.fbutton {
   display: flex;
   justify-content: center;
 }
 
-.fbtnn{
+.fbtnn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -665,7 +665,7 @@ textarea{
   padding: 12px;
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   font-family: Inter;
   font-size: 17px;
@@ -675,9 +675,8 @@ textarea{
   outline: none;
 }
 
-.fbtnn:hover{
+.fbtnn:hover {
   color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
 }
-
