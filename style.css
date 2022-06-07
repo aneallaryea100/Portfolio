@@ -626,7 +626,6 @@ header nav i {
 }
 
 .fotext {
-  font-family: Inter;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -667,7 +666,6 @@ textarea {
   height: 48px;
   background: #ff6b00;
   color: #fff;
-  font-family: Inter;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
