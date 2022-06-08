@@ -642,6 +642,18 @@ header nav i {
 
 input {
   width: 327px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-bottom: 14px;
+  font-family: 'Inter', sans-serif;
 }
 
 textarea {
@@ -649,6 +661,13 @@ textarea {
   width: 327px;
   background: #fbf8f7;
   padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
 }
 
 .fbutton {
@@ -679,10 +698,28 @@ textarea {
   border: 1px solid #f55800;
 }
 
-input {
-  outline:none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid gray;
+.ff-icon {
+  width: 375px;
+  border-top: 1px solid gray;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fsocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.fsocial > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.h-dicate {
+  padding-top: 23px;
 }
