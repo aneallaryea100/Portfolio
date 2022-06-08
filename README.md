@@ -13,12 +13,16 @@
 # SET UP
 * Download the folder and click on index.html
 
-# AUTHOR
+# AUTHORS
 👤 Aneal Laryea
 * Github: [@aneallaryea](https://github.com/aneallaryea100)
 * LinkdIn: [@aneallaryea](https://www.linkedin.com/in/nii-aneal-84ba7a147)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 
+👤 Jean Bulambo
+- GitHub: [@jeanbulambo](https://github.com/Jeanbulambo)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 
 ## 🤝 Contributing
