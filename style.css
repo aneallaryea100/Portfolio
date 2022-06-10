@@ -102,23 +102,24 @@ header nav i {
   flex-grow: 0;
 }
 
-.headline .supporting-text {
+/* .headline .supporting-text */ .sofew {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
   color: #fff5e1;
-  left: 24px;
+
+  /* left: 24px;
   top: 256px;
   border-radius: nullpx;
   flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 0; */
   margin-top: 25px;
 }
 
@@ -746,6 +747,28 @@ textarea {
   display: none;
 }
 
+.footer {
+  width: 375px;
+  border-top: 1px solid gray;
+
+  /* height: 72px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-top: 304px; */
+}
+
+.fsocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .dp {
     display: none;
@@ -805,6 +828,7 @@ textarea {
 
   header nav a {
     color: #fff;
+    font-family: 'Inter', sans-serif;
   }
 
   .my-logo {
@@ -818,6 +842,9 @@ textarea {
   .sects {
     display: inline-flex;
     flex-wrap: wrap;
+    background: #3e3c3c;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
   }
 
   .sects > li {
@@ -870,6 +897,7 @@ textarea {
     } */
 
   .supporting-text {
+    font-family: 'Inter', sans-serif;
     width: 566px;
     height: 24px;
     font-style: normal;
@@ -886,7 +914,7 @@ textarea {
     display: none;
   }
 
-  .headline .supporting-text {
+  /* .headline .supporting-text */.gregg {
     font-family: 'Inter', sans-serif;
     width: 566px;
     height: 24px;
@@ -1548,11 +1576,12 @@ textarea {
   .footer {
     width: 100%;
     border-top: 1px solid gray;
-    height: 72px;
+
+    /* height: 72px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 154px;
+    margin-top: 304px;
   }
 
   .fsocial {
@@ -1561,6 +1590,8 @@ textarea {
     align-items: center;
     width: 200px;
     height: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
   .actz {
