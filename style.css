@@ -69,11 +69,11 @@ header nav {
   animation-duration: 5s;
 }
 
-@keyframes logo{
-  0%   {background-color: fuchsia;}
-  25%  {background-color: khaki;}
-  50%  {background-color: darkgrey;}
-  100% {background-color: tomato;}
+@keyframes logo {
+  0% { background-color: fuchsia; }
+  25% { background-color: khaki; }
+  50% { background-color: darkgrey; }
+  100% { background-color: tomato; }
 }
 
 header nav i {
@@ -111,7 +111,7 @@ header nav i {
   flex-grow: 0;
 }
 
- .sofew {
+.sofew {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -127,14 +127,12 @@ header nav i {
   animation-duration: 10s;
 }
 
-@keyframes sofew{
-  0%   {background-color: fuchsia;}
-  25%  {background-color: khaki;}
-  50%  {background-color: darkgrey;}
-  100% {background-color: tomato;}
+@keyframes sofew {
+  0% { background-color: fuchsia; }
+  25% { background-color: khaki; }
+  50% { background-color: darkgrey; }
+  100% { background-color: tomato; }
 }
-
-
 
 .headline .description {
   width: 327px;
@@ -400,7 +398,7 @@ header nav i {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  transition: 3s; 
+  transition: 3s;
 }
 
 .madbtn:hover {
@@ -536,6 +534,7 @@ header nav i {
   color: #fff;
   font-family: 'Inter', sans-serif;
   transition: 3s;
+
   /* margin-top: 30px; */
   border: none;
   letter-spacing: 0.03em;
@@ -894,7 +893,6 @@ textarea {
     justify-content: flex-start;
   }
 
-
   .headline .primary-text > h1 {
     width: 566px;
     height: 160px;
@@ -906,12 +904,12 @@ textarea {
     animation-name: prem;
     animation-duration: 10s;
   }
-  
+
   @keyframes prem {
-    0%   {background-color: fuchsia;}
-    25%  {background-color: khaki;}
-    50%  {background-color: darkgrey;}
-    100% {background-color: tomato;}
+    0% { background-color: fuchsia; }
+    25% { background-color: khaki; }
+    50% { background-color: darkgrey; }
+    100% { background-color: tomato; }
   }
 
   .supporting-text {
@@ -1366,6 +1364,7 @@ textarea {
     color: #fff;
     font-family: 'Inter', sans-serif;
     transition: 3s;
+
     /* margin-top: 72px; */
     border: none;
     letter-spacing: 0.03em;
