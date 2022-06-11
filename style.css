@@ -392,6 +392,7 @@ header nav i {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  transition: 3s; 
 }
 
 .madbtn:hover {
