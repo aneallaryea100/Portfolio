@@ -12,7 +12,10 @@
 * Modern Browser.Example: Firefox, chrome.
 * Windows 7 and above, MacOs, linux and android.
 # SET UP
-* Download the folder and click on index.html
+* Download the folder and click on index.html 
+
+** Live Demo
+(Link to the Demo)(https://aneallaryea100.github.io/Portfolio/)
 
 # AUTHOR
 👤 Aneal Laryea
