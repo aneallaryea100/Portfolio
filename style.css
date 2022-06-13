@@ -65,6 +65,15 @@ header nav {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 24px;
+  animation-name: logo;
+  animation-duration: 5s;
+}
+
+@keyframes logo {
+  0% { background-color: fuchsia; }
+  25% { background-color: khaki; }
+  50% { background-color: darkgrey; }
+  100% { background-color: tomato; }
 }
 
 header nav i {
@@ -102,7 +111,7 @@ header nav i {
   flex-grow: 0;
 }
 
-/* .headline .supporting-text */ .sofew {
+.sofew {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -113,20 +122,17 @@ header nav i {
   display: flex;
   align-items: center;
   color: #fff5e1;
-
-  /* left: 24px;
-  top: 256px;
-  border-radius: nullpx;
-  flex: none;
-  order: 1;
-  flex-grow: 0; */
   margin-top: 25px;
+  animation-name: sofew;
+  animation-duration: 10s;
 }
 
-/*
-.sofew {
-  font-size: 24px;
-} */
+@keyframes sofew {
+  0% { background-color: fuchsia; }
+  25% { background-color: khaki; }
+  50% { background-color: darkgrey; }
+  100% { background-color: tomato; }
+}
 
 .headline .description {
   width: 327px;
@@ -392,6 +398,7 @@ header nav i {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  transition: 3s;
 }
 
 .madbtn:hover {
@@ -510,6 +517,7 @@ header nav i {
   margin-top: 30px;
   border: none;
   letter-spacing: 0.03em;
+  transition: 3s;
 }
 
 .esdd {
@@ -525,6 +533,7 @@ header nav i {
   text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
+  transition: 3s;
 
   /* margin-top: 30px; */
   border: none;
@@ -598,6 +607,7 @@ header nav i {
   border: none;
   margin-left: 24px;
   margin-right: 190px;
+  transition: 3s;
 }
 
 .divider {
@@ -735,6 +745,7 @@ textarea {
   line-height: 24px;
   border: none;
   outline: none;
+  transition: 3s;
 }
 
 .fbtnn:hover {
@@ -890,11 +901,16 @@ textarea {
     font-size: 72px;
     line-height: 82px;
     color: #f55800;
+    animation-name: prem;
+    animation-duration: 10s;
   }
 
-  /* .primary-text > h1:first-child{
-    height: 0;
-    } */
+  @keyframes prem {
+    0% { background-color: fuchsia; }
+    25% { background-color: khaki; }
+    50% { background-color: darkgrey; }
+    100% { background-color: tomato; }
+  }
 
   .supporting-text {
     font-family: 'Inter', sans-serif;
@@ -1347,6 +1363,7 @@ textarea {
     text-align: center;
     color: #fff;
     font-family: 'Inter', sans-serif;
+    transition: 3s;
 
     /* margin-top: 72px; */
     border: none;
