@@ -114,18 +114,6 @@ header nav i {
   align-items: center;
   color: #fff5e1;
   margin-top: 25px;
-<<<<<<< HEAD
-  animation-name: sofew;
-  animation-duration: 5s;
-}
-
-@keyframes sofew {
-  0% { background-color: fuchsia; }
-  25% { background-color: khaki; }
-  50% { background-color: darkgrey; }
-  100% { background-color: tomato; }
-=======
->>>>>>> 65637e2d2353e33914815dbe77f61bf59d888221
 }
 
 .headline .description {
