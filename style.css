@@ -65,15 +65,6 @@ header nav {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 24px;
-  animation-name: logo;
-  animation-duration: 5s;
-}
-
-@keyframes logo {
-  0% { background-color: fuchsia; }
-  25% { background-color: khaki; }
-  50% { background-color: darkgrey; }
-  100% { background-color: tomato; }
 }
 
 header nav i {
@@ -105,7 +96,7 @@ header nav i {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #c35000;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -123,15 +114,6 @@ header nav i {
   align-items: center;
   color: #fff5e1;
   margin-top: 25px;
-  animation-name: sofew;
-  animation-duration: 10s;
-}
-
-@keyframes sofew {
-  0% { background-color: fuchsia; }
-  25% { background-color: khaki; }
-  50% { background-color: darkgrey; }
-  100% { background-color: tomato; }
 }
 
 .headline .description {
@@ -184,7 +166,7 @@ header nav i {
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
-  background: #ff6b00;
+  background: #c35000;
   display: flex;
   border: none;
 }
@@ -387,7 +369,7 @@ header nav i {
   gap: 10px;
   width: 124px;
   height: 48px;
-  background: #ff6b00;
+  background: #c35000;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -507,7 +489,7 @@ header nav i {
   align-items: center;
   height: 48px;
   width: 327px;
-  background: #ff6b00;
+  background: #c35000;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -526,7 +508,7 @@ header nav i {
   align-items: center;
   height: 48px;
   width: 366px;
-  background: #ff6b00;
+  background: #c35000;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -575,7 +557,7 @@ header nav i {
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px;
-  color: #ff6b00;
+  color: #c35000;
   display: flex;
 }
 
@@ -596,7 +578,7 @@ header nav i {
   padding: 12px;
   display: flex;
   align-items: center;
-  background: #ff6b00;
+  background: #c35000;
   color: white;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -715,7 +697,7 @@ input {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #979493;
+  color: #727170;
 }
 
 textarea {
@@ -738,7 +720,7 @@ textarea {
   padding: 12px;
   width: 131px;
   height: 48px;
-  background: #ff6b00;
+  background: #c35000;
   color: #fff;
   font-size: 17px;
   font-weight: 700;
@@ -1196,7 +1178,7 @@ textarea {
     gap: 10px;
     width: 124px;
     height: 48px;
-    background: #ff6b00;
+    background: #c35000;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -1356,7 +1338,7 @@ textarea {
     align-items: center;
     height: 48px;
     width: 365px;
-    background: #ff6b00;
+    background: #c35000;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -1405,7 +1387,7 @@ textarea {
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px; */
-    color: #ff6b00;
+    color: #c35000;
     display: flex;
   }
 
@@ -1430,7 +1412,7 @@ textarea {
     padding: 12px;
     display: flex;
     align-items: center;
-    background: #ff6b00;
+    background: #c35000;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
