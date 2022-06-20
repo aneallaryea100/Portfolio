@@ -3,10 +3,12 @@
 # MOBILE-VERSION-PORFOLIO
 * A mobile view of my portfolio project on [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)
 * A desktop view added to my portfolio project.
+* Menu mobile is responsive with JavaScript.
 # Built With
 * HTML 
 * CSS
 * Figma
+* JavaScript
 
 # Prerequisite
 * Modern Browser.Example: Firefox, chrome.
@@ -22,6 +24,12 @@
 * Github: [@aneallaryea](https://github.com/aneallaryea100)
 * LinkdIn: [@aneallaryea](https://www.linkedin.com/in/nii-aneal-84ba7a147)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+
+👤 Andy Menutti
+* Github: [@andym80](https://github.com/aneallaryea100)
+* LinkdIn: [@andym80](https://www.linkedin.com)
+* Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+
 
 
 
