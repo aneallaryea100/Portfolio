@@ -96,7 +96,6 @@ header nav i {
 }
 
 .navlinks {
-  color: white;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -104,7 +103,7 @@ header nav i {
   width: 30rem;
   border-bottom: 1px solid gray;
   margin-left: 30px;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-family: 'Inter', sans-serif;
   padding: 1rem;
 }
