@@ -15,7 +15,7 @@
 * Download the folder and click on index.html 
 
 # Live Demo
-[Link to the Demo](https://aneallaryea100.github.io/Portfolio/)
+* [Link to the Demo](https://aneallaryea100.github.io/Portfolio/)
 
 # AUTHOR
 👤 Aneal Laryea
