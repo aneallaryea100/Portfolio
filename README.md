@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MOBILE-VERSION-PORFOLIO
+# MOBILE-VERSION-PORTFOLIO
 * A mobile view of my portfolio project on [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)
 * A desktop view added to my portfolio project.
 * Menu mobile is responsive with JavaScript.
@@ -26,9 +26,8 @@
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 
 👤 Andy Menutti
-* Github: [@andym80](https://github.com/aneallaryea100)
-* LinkdIn: [@andym80](https://www.linkedin.com)
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+* Github: [@andym80](https://github.com/andym80)
+* LinkdIn: [@andym80](https://shorturl.at/cADGM)
 
 
 
