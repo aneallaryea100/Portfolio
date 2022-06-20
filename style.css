@@ -73,6 +73,29 @@ header nav i {
   margin: px;
 }
 
+.navvme {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #3c3a39;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -100%;
+}
+
+.navvme.active {
+  left: 0;
+}
+
+.cloze {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
