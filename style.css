@@ -44,19 +44,18 @@ h6 {
   display: none;
 }
 
-.cardSec{
+.cardSec {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: center;
 }
 
-.ddestxts{
+.ddestxts {
   display: flex;
   padding: 0.2rem;
   color: #fff;
 }
-
 
 header nav {
   display: flex;
@@ -445,10 +444,6 @@ header nav i {
   gap: 1rem;
 }
 
-.card-works p{
-  color: #dbd8d7;
-}
-
 .ghg {
   height: 81px;
   width: 295px;
@@ -801,7 +796,7 @@ textarea {
     display: block;
   }
 
-  .navbaz{
+  .navbaz {
     width: 100%;
   }
 
@@ -1058,6 +1053,10 @@ textarea {
     color: #091e42;
   }
 
+  .card-works p {
+    color: #dbd8d7;
+  }
+
   .work-section .featured-img .right-block .support-text {
     width: 448px;
     height: 140px;
@@ -1162,8 +1161,8 @@ textarea {
     background: #fff5e1;
     border: 1px solid #f55800;
   }
-  
-  .cardSec{
+
+  .cardSec {
     width: 71.875rem;
   }
 
