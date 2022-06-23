@@ -130,7 +130,7 @@ const form = document.getElementById('form');
 
 form.addEventListener('submit', (element) => {
   element.preventDefault();
-  
+
   const email = document.getElementById('mail');
   const errorMessage = document.querySelector('.error');
   const emailValue = email.value;
