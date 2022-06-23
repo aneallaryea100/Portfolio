@@ -127,17 +127,17 @@ for (let index = 0; index < data.length; index += 1) {
 
 /** ****** email validation ********* */
 const form = document.getElementById('form');
-const email = document.getElementById('mail');
-const errorMessage = document.querySelector('.error');
 
 form.addEventListener('submit', (element) => {
   element.preventDefault();
-  const emailValue = email.value.trim();
-  const pat = /^[a-z]+$/;
+  const email = document.getElementById('mail');
+  const errorMessage = document.querySelector('.error');
+  const emailValue = email.value;
 
-  if (pat.test(emailValue) === false) {
+  if (emailValue !== emailValue.toLowerCase()) {
     errorMessage.innerText = 'Email must be lowercase***';
   } else {
     form.submit();
+    errorMessage.innerText = '';
   }
 });
