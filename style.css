@@ -40,11 +40,10 @@ h6 {
   margin: 10px auto;
 }
 
-.error{
+.error {
   color: red;
   font-size: 20px;
 }
-
 
 .port {
   display: none;
