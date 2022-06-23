@@ -124,3 +124,20 @@ for (let index = 0; index < data.length; index += 1) {
   // add div to card section
   cardSecz.appendChild(divContain);
 }
+
+/** ****** email validation ********* */
+const form = document.getElementById('form');
+const email = document.getElementById('mail');
+const errorMessage = document.querySelector('.error');
+
+form.addEventListener('submit', (element) => {
+  element.preventDefault();
+  const emailValue = email.value.trim();
+  const pat = /^[a-z]+$/;
+
+  if (pat.test(emailValue) === false) {
+    errorMessage.innerText = 'Email must be lowercase***';
+  } else {
+    form.submit();
+  }
+});
