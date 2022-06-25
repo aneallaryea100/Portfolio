@@ -1,9 +1,8 @@
-// variables
+/** ************ variables ********** */
 const hambx = document.querySelector('.hambx');
 const close = document.querySelector('.close');
 const nav = document.querySelector('.navvme');
 const navLink = document.querySelectorAll('.navlinks');
-// const allEsdd = document.querySelectorAll('.esdd');
 
 /** **************hamburger actions****************** */
 hambx.addEventListener('click', () => {
@@ -150,7 +149,6 @@ spanMidal.innerHTML = '&times;';
 // head title
 const midalHt = document.createElement('h2');
 midalHead.appendChild(midalHt);
-// const textmidalHt = document.createTextNode('Modal Header');
 midalHt.setAttribute('class', 'head8');
 midalHt.innerHTML = 'Multi Post stories';
 // technologies
@@ -169,17 +167,6 @@ const lteky2 = document.createElement('li');
 techL.appendChild(lteky2);
 lteky2.innerHTML = 'Ruby on rails';
 lteky2.setAttribute('class', 'techies');
-// title
-// const titleDiv = document.createElement('div');
-// titleDiv.setAttribute('class', 'headmod');
-// midalHead.appendChild(titleDiv);
-// const titTag = document.createElement('h5');
-// titTag.setAttribute('class', 'modhtxt');
-// const titText = document.createTextNode('fish');
-// // elData.name
-// titTag.appendChild(titText);
-// titleDiv.appendChild(titTag);
-// div image
 const bigbody = document.createElement('div');
 bigbody.setAttribute('class', 'bigbody');
 midalContent.appendChild(bigbody);
@@ -190,16 +177,8 @@ bigbody.appendChild(imgDiv);
 const imgTag = document.createElement('img');
 imgTag.setAttribute('class', 'tagimg1');
 imgTag.setAttribute('id', 'snapbigs');
-// imgTag.setAttribute('src', 'assets/images/snapbig.png');
 imgTag.src = 'assets/image/snapbig.png';
 imgDiv.appendChild(imgTag);
-// image2
-// const imgTag2 = document.createElement('img');
-// imgTag2.setAttribute('class', 'tagimg2');
-// // imgTag.setAttribute('src', 'assets/images/snapbig.png');
-// imgTag2.src = 'assets/image/snapsmall.png';
-// imgDiv.appendChild(imgTag2);
-// text div
 const textDiv = document.createElement('div');
 textDiv.setAttribute('class', 'txtimg');
 bigbody.appendChild(textDiv);
@@ -207,8 +186,6 @@ bigbody.appendChild(textDiv);
 const ptextTag = document.createElement('p');
 ptextTag.setAttribute('class', 'loetxt');
 ptextTag.innerHTML = ('Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.');
-// elData.textModal
-// ptextTag.appendChild(ptext);
 textDiv.appendChild(ptextTag);
 // container link and src code
 const divSrcLink = document.createElement('div');
@@ -249,7 +226,6 @@ const span = document.getElementsByClassName('spanz')[0];
 // When the user clicks the button, open the modal
 errst.forEach((i) => {
   i.onclick = function () {
-    console.log('call');
     midal.style.display = 'block';
   };
 });
@@ -264,6 +240,11 @@ window.onclick = function (event) {
     midal.style.display = 'none';
   }
 };
+
+const openButton = document.getElementById('madbttv');
+openButton.addEventListener('click', () => {
+  midal.style.display = 'block';
+});
 
 /** *****************************separate cardss******************************* */
 const wert = document.getElementById('cardSecs');
@@ -280,7 +261,7 @@ const createGridCards = (objTest) => {
   ddelhed.innerHTML = objTest.name;
   // text
   const ttlorem = document.createElement('p');
-  ttlorem.setAttribute('class', 'rtex');
+  ttlorem.class = 'rtex';
   ttlorem.innerHTML = objTest.description;
   divHse.appendChild(ttlorem);
   // list techs
@@ -309,14 +290,11 @@ const createGridCards = (objTest) => {
 };
 
 data.forEach((k) => {
-  console.log('I am consoling ', k);
   wert.appendChild(createGridCards(k));
 });
 
 document.addEventListener('click', (e) => {
   if (e.target.classList.contains('erest')) {
-    // do something
-    console.log('call');
     midal.style.display = 'block';
   }
 });

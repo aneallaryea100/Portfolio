@@ -6,6 +6,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  color: #fff;
 }
 
 li {
@@ -38,6 +44,10 @@ h6 {
   background: #fff;
   border-radius: 0;
   margin: 10px auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
 .error {
@@ -183,15 +193,6 @@ header nav i {
   padding-right: 3px;
 }
 
-/* .menb{
-  background: black;
-  width: 100%;
-  display: flex;
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-} */
-
 .mmed {
   display: flex;
   flex-direction: row;
@@ -233,17 +234,10 @@ header nav i {
 }
 
 .work-section {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: stretch;
-  height: 3455px;
-  width: 375px;
-  left: 0;
-  border-radius: 0;
-  padding: 120px 0;
-  margin-top: -186px;
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 90px auto;
 }
 
 .work-section .title {
@@ -257,28 +251,21 @@ header nav i {
   order: 0;
   flex-grow: 0;
   border-bottom: 1px gray solid;
-  margin-bottom: -200px;
+
+  /* margin-bottom: -200px; */
   margin-top: 120px;
 }
 
 .work-section .title .title-text {
-  width: 327px;
-  height: 83px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #1c1a19;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #091e42;
 }
 
 .work-section .frame {
-  /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding: 0;
@@ -454,28 +441,12 @@ header nav i {
   border: 1px solid #f55800;
 }
 
-/*
-.second-frame {
-  display: grid;
-  width: 375px;
-} */
-
 .card-works {
-  /* height: 386px;
-  width: 327px; */
-
-  /* left: 0;
-  top: 0;
-  border-radius: 0; */
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("assets/image/hold2.png");
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 1rem;
-
-  /* margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 24px; */
 }
 
 .ghg {
@@ -612,6 +583,10 @@ header nav i {
   margin-right: 24px;
   color: #c35000;
   display: flex;
+}
+
+.cardSecs {
+  color: white;
 }
 
 .abt-txt2 {
@@ -792,6 +767,7 @@ textarea {
 
 .vvec {
   display: none;
+  margin-bottom: 190px;
 }
 
 .footer {
@@ -907,30 +883,41 @@ textarea {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 60px;/* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  backdrop-filter: blur(20px);
+
+  /* margin: auto auto; */
+
+  /* overflow: scroll; */
+  overflow-x: hidden;
 }
 
-/* Modal Content */
 .midal-content {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   background-color: #fefefe;
-  margin: auto;
-  padding: 2rem;
+  padding: 0.7rem;
   border: 1px solid #888;
-  width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
+  margin: 0.5rem;
 }
+
+body.midalT {
+  overflow: hidden;
+}
+
+/* Modal Content */
+
 
 /* Add Animation */
 
@@ -960,10 +947,10 @@ textarea {
   cursor: pointer;
 }
 
-.bigbody {
+/* .bigbody {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .midal-header {
   padding: 2px 16px;
@@ -1077,7 +1064,6 @@ textarea {
 .madbtnx {
   background: #c35000;
   color: white;
-  padding: 0.3rem;
 }
 
 .srclink {
@@ -1087,13 +1073,39 @@ textarea {
 
 .liveLink {
   color: white;
-
-  /* padding: 1rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
 }
+
+/* .bigbody {
+  display: block;
+} */
 
 @media only screen and (min-width: 768px) {
   .tagimg1 {
     width: 35rem;
+  }
+
+  .rtex {
+    color: white;
+    margin: 0.5rem;
+  }
+
+  .midal-content {
+    background-color: #fefefe;
+
+    /* margin: auto; */
+    padding: 0.7rem;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    margin: 0.5rem;
   }
 
   .bigbody {
@@ -1138,15 +1150,16 @@ textarea {
 
   body {
     max-width: 100%;
-    overflow-x: hidden;
   }
 
   .wrapper {
     display: grid;
+    margin: 0;
     grid-template-columns: auto;
     background: #fff;
     color: #fff;
-    width: 100%;
+
+    /* width: 100%; */
   }
 
   header {
@@ -1328,11 +1341,11 @@ textarea {
   }
 
   .work-section {
-    width: 80%;
+    /* width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
 
   .work-section .title {
@@ -1347,8 +1360,8 @@ textarea {
   }
 
   .work-section .title .title-text {
-    width: 327px;
-    height: 83px;
+    /* width: 327px;
+    height: 83px; */
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
@@ -1360,6 +1373,7 @@ textarea {
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-bottom: 190px;
   }
 
   .work-section .frame {
@@ -1972,14 +1986,6 @@ textarea {
     display: none;
   }
 
-  /* .headmod{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin-left: -450px;
-  margin-top: -50px;
-} */
-
   .modhtxt {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -1999,6 +2005,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    clear: both;
   }
 
   .mkclose {
@@ -2048,5 +2055,11 @@ textarea {
 
   .mfbys {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .txtimg {
+    clear: both;
   }
 }
