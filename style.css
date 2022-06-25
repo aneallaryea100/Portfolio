@@ -1883,9 +1883,3 @@ body.midalT {
     display: flex;
   }
 }
-
-@media screen and (max-width: 357px) {
-  .txtimg {
-    clear: both;
-  }
-}
