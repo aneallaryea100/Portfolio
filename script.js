@@ -94,7 +94,11 @@ const errorMessage = document.querySelector('.error');
 
 form.addEventListener('submit', (element) => {
   element.preventDefault();
-  const emailValue = email.value.trim();
+
+  const email = document.getElementById('mail');
+  const errorMessage = document.querySelector('.error');
+  const emailValue = email.value;
+
   if (emailValue !== emailValue.toLowerCase()) {
     errorMessage.innerText = 'Email must be lowercase***';
   } else {
@@ -298,3 +302,28 @@ document.addEventListener('click', (e) => {
     midal.style.display = 'block';
   }
 });
+
+// local storage
+const textz = document.getElementById('name');
+const textArea = document.getElementById('msg');
+const mailWays = document.getElementById('mail');
+form.addEventListener('input', () => {
+  const inputData = {
+    Name: textz.value,
+    Email: mailWays.value,
+    Area: textArea.value,
+  };
+  const collectData = JSON.stringify(inputData);
+  localStorage.setItem('collectData', collectData);
+});
+
+function reachData() {
+  if (localStorage.getItem('collectData')) {
+    const realData = JSON.parse(localStorage.getItem('collectData'));
+    textz.value = realData.Name;
+    mailWays.value = realData.Email;
+    textArea.value = realData.Area;
+  }
+}
+
+reachData();
