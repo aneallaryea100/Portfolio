@@ -130,6 +130,7 @@ const form = document.getElementById('form');
 
 form.addEventListener('submit', (element) => {
   element.preventDefault();
+
   const email = document.getElementById('mail');
   const errorMessage = document.querySelector('.error');
   const emailValue = email.value;
@@ -141,3 +142,28 @@ form.addEventListener('submit', (element) => {
     errorMessage.innerText = '';
   }
 });
+
+// local storage
+const textz = document.getElementById('name');
+const textArea = document.getElementById('msg');
+const mailWays = document.getElementById('mail');
+form.addEventListener('input', () => {
+  const inputData = {
+    Name: textz.value,
+    Email: mailWays.value,
+    Area: textArea.value,
+  };
+  const collectData = JSON.stringify(inputData);
+  localStorage.setItem('collectData', collectData);
+});
+
+function reachData() {
+  if (localStorage.getItem('collectData')) {
+    const realData = JSON.parse(localStorage.getItem('collectData'));
+    textz.value = realData.Name;
+    mailWays.value = realData.Email;
+    textArea.value = realData.Area;
+  }
+}
+
+reachData();
