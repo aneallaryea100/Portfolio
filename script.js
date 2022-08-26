@@ -3,6 +3,9 @@ const hambx = document.querySelector('.hambx');
 const close = document.querySelector('.close');
 const nav = document.querySelector('.navvme');
 const navLink = document.querySelectorAll('.navlinks');
+const textz = document.getElementById('name');
+const textArea = document.getElementById('msg');
+const mailWays = document.getElementById('mail');
 
 /** **************hamburger actions****************** */
 hambx.addEventListener('click', () => {
@@ -107,9 +110,6 @@ form.addEventListener('submit', (element) => {
 });
 
 /** ******************** local storage ***************** */
-const textz = document.getElementById('name');
-const textArea = document.getElementById('msg');
-const mailWays = document.getElementById('mail');
 form.addEventListener('input', () => {
   const inputData = {
     Name: textz.value,
@@ -304,9 +304,6 @@ document.addEventListener('click', (e) => {
 });
 
 // local storage
-const textz = document.getElementById('name');
-const textArea = document.getElementById('msg');
-const mailWays = document.getElementById('mail');
 form.addEventListener('input', () => {
   const inputData = {
     Name: textz.value,
